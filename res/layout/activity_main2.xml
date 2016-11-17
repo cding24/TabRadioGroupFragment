@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+    
+    <android.support.v4.view.ViewPager
+    android:id="@+id/viewpage"
+    android:layout_height="0dip"
+    android:layout_weight="1"
+    android:layout_width="match_parent"/>
+    
+    <RadioGroup 
+    android:id="@+id/main_rg"
+    android:layout_height="50dip"
+    android:layout_width="match_parent"
+    android:orientation="horizontal">
+        <RadioButton
+        android:id="@+id/rb0"
+        android:checked="true"
+        style="@style/main_tab_style"
+        android:drawableTop="@drawable/tab_01_bg"
+        android:text="精选"/>
+        <RadioButton
+        android:id="@+id/rb1"
+        style="@style/main_tab_style"
+        android:drawableTop="@drawable/tab_02_bg"
+        android:text="分类"/>
+        <RadioButton
+        android:id="@+id/rb2"
+        style="@style/main_tab_style"
+        android:drawableTop="@drawable/tab_03_bg"
+        android:text="投资"/>
+        <RadioButton
+        android:id="@+id/rb3"
+        style="@style/main_tab_style"
+        android:drawableTop="@drawable/tab_04_bg"
+        android:text="我的"/>     
+    </RadioGroup>
+
+</LinearLayout>

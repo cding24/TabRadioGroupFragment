@@ -1,0 +1,2 @@
+1. RadioGroup + FrameLayout
+2. RadioGroup + ViewPager
